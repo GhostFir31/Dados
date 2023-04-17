@@ -18,11 +18,12 @@ Scanner leer=new Scanner(System.in);
 
 Dado dado = new Dado(0, 0);
 do{
+    
 System.out.println("1. Generar aleatoriamente 1 dado");
 
 System.out.println("2. Generar aleatoriamente 5 dados");
 
-System.out.println("3.Fin");
+System.out.println("3. Fin");
 
 opcion=leer.nextInt();
 
